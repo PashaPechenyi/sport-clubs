@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sport-clubs/static/css/main.1da30146.chunk.css",
+    "main.js": "/sport-clubs/static/js/main.b1c8b105.chunk.js",
+    "main.js.map": "/sport-clubs/static/js/main.b1c8b105.chunk.js.map",
+    "runtime-main.js": "/sport-clubs/static/js/runtime-main.460475b6.js",
+    "runtime-main.js.map": "/sport-clubs/static/js/runtime-main.460475b6.js.map",
+    "static/js/2.176f2f5d.chunk.js": "/sport-clubs/static/js/2.176f2f5d.chunk.js",
+    "static/js/2.176f2f5d.chunk.js.map": "/sport-clubs/static/js/2.176f2f5d.chunk.js.map",
+    "index.html": "/sport-clubs/index.html",
+    "precache-manifest.82acdf32f3b404b4d8bcd0f472609b71.js": "/sport-clubs/precache-manifest.82acdf32f3b404b4d8bcd0f472609b71.js",
+    "service-worker.js": "/sport-clubs/service-worker.js",
+    "static/css/main.1da30146.chunk.css.map": "/sport-clubs/static/css/main.1da30146.chunk.css.map",
+    "static/js/2.176f2f5d.chunk.js.LICENSE.txt": "/sport-clubs/static/js/2.176f2f5d.chunk.js.LICENSE.txt",
+    "static/media/default-image.png": "/sport-clubs/static/media/default-image.f98b32ce.png",
+    "static/media/logo.svg": "/sport-clubs/static/media/logo.66e9972c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.460475b6.js",
+    "static/js/2.176f2f5d.chunk.js",
+    "static/css/main.1da30146.chunk.css",
+    "static/js/main.b1c8b105.chunk.js"
+  ]
+}
