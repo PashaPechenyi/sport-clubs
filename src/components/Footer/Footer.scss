@@ -1,0 +1,28 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.mainFooter {
+  .mainFooterWrapper {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .mainFooter {
+    a {
+      font-size: 16px;
+    }
+  }
+}

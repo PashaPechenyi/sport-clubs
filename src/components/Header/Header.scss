@@ -1,0 +1,54 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.mainHeader {
+  .blockquote {
+    font-weight: 700;
+    font-size: 14px;
+    color: gray;
+    text-align: right;
+
+    margin: 20px 0;
+    padding: 15px 20px 10px 20px;
+    border-left: 5px solid #eee;
+
+    p {
+      margin: 15px 0;
+    }
+  }
+
+  .blockquote-footer {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #777;
+  }
+
+  .jumbotron {
+    background: lightgray;
+    color: black;
+    padding: 30px 30px;
+
+    h1 {
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 21px;
+      font-weight: 200;
+
+      small {
+        font-weight: 200;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .mainHeader {
+    .jumbotron {
+      padding: 60px 48px;
+    }
+  }
+}

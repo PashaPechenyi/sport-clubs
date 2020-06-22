@@ -1,0 +1,50 @@
+.cities {
+  .nav-item {
+    padding: 0 1px;
+  }
+
+  .nav-link {
+    transition: all 0.3s linear;
+    &:hover {
+      cursor: pointer;
+      background-color: #ededed;
+      border-start-start-radius: 5px;
+    }
+  }
+
+  .nav-link-refresh {
+    background-color: rgb(51, 122, 183);
+    color: #fff;
+
+    &:hover {
+      background-color: #ededed;
+    }
+  }
+}
+
+.refreshAnimation-enter {
+  margin-left: -54px;
+  opacity: 0;
+  transform: translateX(-600px);
+}
+.refreshAnimation-enter-active {
+  margin-left: 0;
+  opacity: 1;
+  transform: translateX(0px);
+
+  transition: transform 0.3s linear, margin-left 0.3s linear,
+    opacity 0.3s linear;
+}
+.refreshAnimation-exit {
+  margin-left: 0;
+  opacity: 1;
+  transform: translateX(0px);
+}
+.refreshAnimation-exit-active {
+  margin-left: -54px;
+  opacity: 0;
+  transform: translateX(-600px);
+
+  transition: transform 0.3s linear, margin-left 0.3s linear,
+    opacity 0.3s linear;
+}
